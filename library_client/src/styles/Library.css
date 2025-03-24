@@ -1,0 +1,132 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+/* Author List */
+.author-list {
+  list-style: none;
+  padding: 0;
+}
+
+.author-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.author-info {
+  flex: 1;
+  font-size: 16px;
+}
+
+/* Button Actions */
+.author-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn,
+.cancel-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: black;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+/* Loading & Error Messages */
+.loading,
+.error {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545;
+}
